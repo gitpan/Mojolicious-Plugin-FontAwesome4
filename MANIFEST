@@ -1,0 +1,37 @@
+.ship.conf
+Changes
+CONTRIBUTING.md
+cpanfile
+lib/Mojolicious/Plugin/FontAwesome4.pm
+lib/Mojolicious/Plugin/FontAwesome4/fonts/fontawesome-webfont.eot
+lib/Mojolicious/Plugin/FontAwesome4/fonts/fontawesome-webfont.svg
+lib/Mojolicious/Plugin/FontAwesome4/fonts/fontawesome-webfont.ttf
+lib/Mojolicious/Plugin/FontAwesome4/fonts/fontawesome-webfont.woff
+lib/Mojolicious/Plugin/FontAwesome4/fonts/FontAwesome.otf
+lib/Mojolicious/Plugin/FontAwesome4/packed/font-awesome-4b9bd976663524f41879d988f3518e17.css
+lib/Mojolicious/Plugin/FontAwesome4/packed/font-awesome4-4b9bd976663524f41879d988f3518e17.css
+lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome.scss
+lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome/_bordered-pulled.scss
+lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome/_core.scss
+lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome/_extras.scss
+lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome/_fixed-width.scss
+lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome/_icons.scss
+lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome/_larger.scss
+lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome/_list.scss
+lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome/_mixins.scss
+lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome/_path.scss
+lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome/_rotated-flipped.scss
+lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome/_spinning.scss
+lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome/_stacked.scss
+lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome/_variables.scss
+Makefile.PL
+MANIFEST			This list of files
+README.md
+t/00-basic.t
+t/bin/example.pl
+t/bin/sass
+t/files.t
+t/Helper.pm
+t/pack.t
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
