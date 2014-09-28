@@ -8,8 +8,8 @@ lib/Mojolicious/Plugin/FontAwesome4/fonts/fontawesome-webfont.svg
 lib/Mojolicious/Plugin/FontAwesome4/fonts/fontawesome-webfont.ttf
 lib/Mojolicious/Plugin/FontAwesome4/fonts/fontawesome-webfont.woff
 lib/Mojolicious/Plugin/FontAwesome4/fonts/FontAwesome.otf
-lib/Mojolicious/Plugin/FontAwesome4/packed/font-awesome-4b9bd976663524f41879d988f3518e17.css
-lib/Mojolicious/Plugin/FontAwesome4/packed/font-awesome4-4b9bd976663524f41879d988f3518e17.css
+lib/Mojolicious/Plugin/FontAwesome4/packed/font-awesome-eb403a164f3ed30d27bc6b090f6ff0ff.css
+lib/Mojolicious/Plugin/FontAwesome4/packed/font-awesome4-eb403a164f3ed30d27bc6b090f6ff0ff.css
 lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome.scss
 lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome/_bordered-pulled.scss
 lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome/_core.scss
