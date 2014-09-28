@@ -19,9 +19,9 @@ no_index:
     - inc
 requires:
   Mojolicious: 5.00
-  Mojolicious::Plugin::AssetPack: 0.22
+  Mojolicious::Plugin::AssetPack: 0.24
 resources:
   bugtracker: https://github.com/jhthorsen/mojolicious-plugin-fontawesome4/issues
   homepage: https://github.com/jhthorsen/mojolicious-plugin-fontawesome4
   repository: https://github.com/jhthorsen/mojolicious-plugin-fontawesome4.git
-version: 4.2000
+version: 4.2001
