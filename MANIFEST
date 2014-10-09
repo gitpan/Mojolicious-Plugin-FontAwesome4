@@ -1,15 +1,17 @@
+.perltidyrc
 .ship.conf
+.travis.yml
 Changes
 CONTRIBUTING.md
 cpanfile
 lib/Mojolicious/Plugin/FontAwesome4.pm
-lib/Mojolicious/Plugin/FontAwesome4/fonts/fontawesome-webfont.eot
-lib/Mojolicious/Plugin/FontAwesome4/fonts/fontawesome-webfont.svg
-lib/Mojolicious/Plugin/FontAwesome4/fonts/fontawesome-webfont.ttf
-lib/Mojolicious/Plugin/FontAwesome4/fonts/fontawesome-webfont.woff
-lib/Mojolicious/Plugin/FontAwesome4/fonts/FontAwesome.otf
-lib/Mojolicious/Plugin/FontAwesome4/packed/font-awesome-eb403a164f3ed30d27bc6b090f6ff0ff.css
-lib/Mojolicious/Plugin/FontAwesome4/packed/font-awesome4-eb403a164f3ed30d27bc6b090f6ff0ff.css
+lib/Mojolicious/Plugin/FontAwesome4/font/fontawesome-webfont.eot
+lib/Mojolicious/Plugin/FontAwesome4/font/fontawesome-webfont.svg
+lib/Mojolicious/Plugin/FontAwesome4/font/fontawesome-webfont.ttf
+lib/Mojolicious/Plugin/FontAwesome4/font/fontawesome-webfont.woff
+lib/Mojolicious/Plugin/FontAwesome4/font/FontAwesome.otf
+lib/Mojolicious/Plugin/FontAwesome4/packed/font-awesome-39022f739d4862ca8d713be0a62875ff.css
+lib/Mojolicious/Plugin/FontAwesome4/packed/font-awesome4-39022f739d4862ca8d713be0a62875ff.css
 lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome.scss
 lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome/_bordered-pulled.scss
 lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome/_core.scss
@@ -28,10 +30,8 @@ Makefile.PL
 MANIFEST			This list of files
 README.md
 t/00-basic.t
-t/bin/example.pl
-t/bin/sass
-t/files.t
-t/Helper.pm
-t/pack.t
+t/00-copy.t
+t/bundled.t
+t/public.t
 META.yml                                 Module YAML meta-data (added by MakeMaker)
 META.json                                Module JSON meta-data (added by MakeMaker)

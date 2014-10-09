@@ -6,7 +6,7 @@ Mojolicious::Plugin::FontAwesome4 - Mojolicious + http://fortawesome.github.io/F
 
 =head1 VERSION
 
-4.2001
+4.2002
 
 =head1 DESCRIPTION
 
@@ -42,7 +42,7 @@ use Mojo::Base 'Mojolicious::Plugin';
 use File::Spec::Functions 'catdir';
 use Cwd ();
 
-our $VERSION = '4.2001';
+our $VERSION = '4.2002';
 
 =head1 HELPERS
 
@@ -71,12 +71,12 @@ the C<SASS_PATH> environment variable.
 =cut
 
 sub asset_path {
-  my($class, $type) = @_;
+  my ($class, $type) = @_;
   my $path = Cwd::abs_path(__FILE__);
 
   $path =~ s!\.pm$!!;
 
-  return join ':', grep { $_ } catdir($path, 'scss'), $ENV{SASS_PATH} if $type and $type eq 'sass';
+  return join ':', grep {$_} catdir($path, 'scss'), $ENV{SASS_PATH} if $type and $type eq 'sass';
   return $path;
 }
 
@@ -89,7 +89,7 @@ See L</SYNOPSIS>.
 =cut
 
 sub register {
-  my($self, $app, $config) = @_;
+  my ($self, $app, $config) = @_;
   my $helper = $config->{helper} || 'fa';
 
   $config->{css} ||= [qw( font-awesome.scss )];
@@ -97,10 +97,10 @@ sub register {
   $app->helper($helper => \&_fa);
   $app->plugin('AssetPack') unless eval { $app->asset };
 
-  push @{ $app->static->paths }, $self->asset_path;
+  push @{$app->static->paths}, $self->asset_path;
 
-  if(@{ $config->{css} }) {
-    $app->asset('font-awesome4.css' => map { "/scss/$_" } @{ $config->{css} });
+  if (@{$config->{css}}) {
+    $app->asset('font-awesome4.css' => map {"/scss/$_"} @{$config->{css}});
   }
 }
 
@@ -109,7 +109,7 @@ sub _fa {
   my @class = ("fa", "fa-$icon");
   my @args;
 
-  while(my $arg = shift) {
+  while (my $arg = shift) {
     push @class, shift and next if $arg eq 'class';
     push @args, $arg;
   }
