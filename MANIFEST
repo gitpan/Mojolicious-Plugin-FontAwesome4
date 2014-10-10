@@ -5,11 +5,11 @@ Changes
 CONTRIBUTING.md
 cpanfile
 lib/Mojolicious/Plugin/FontAwesome4.pm
-lib/Mojolicious/Plugin/FontAwesome4/font/fontawesome-webfont.eot
-lib/Mojolicious/Plugin/FontAwesome4/font/fontawesome-webfont.svg
-lib/Mojolicious/Plugin/FontAwesome4/font/fontawesome-webfont.ttf
-lib/Mojolicious/Plugin/FontAwesome4/font/fontawesome-webfont.woff
-lib/Mojolicious/Plugin/FontAwesome4/font/FontAwesome.otf
+lib/Mojolicious/Plugin/FontAwesome4/fonts/fontawesome-webfont.eot
+lib/Mojolicious/Plugin/FontAwesome4/fonts/fontawesome-webfont.svg
+lib/Mojolicious/Plugin/FontAwesome4/fonts/fontawesome-webfont.ttf
+lib/Mojolicious/Plugin/FontAwesome4/fonts/fontawesome-webfont.woff
+lib/Mojolicious/Plugin/FontAwesome4/fonts/FontAwesome.otf
 lib/Mojolicious/Plugin/FontAwesome4/packed/font-awesome-39022f739d4862ca8d713be0a62875ff.css
 lib/Mojolicious/Plugin/FontAwesome4/packed/font-awesome4-39022f739d4862ca8d713be0a62875ff.css
 lib/Mojolicious/Plugin/FontAwesome4/scss/font-awesome.scss
